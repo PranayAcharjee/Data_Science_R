@@ -65,6 +65,12 @@ install.packages("dplyr")
 install.packages("matrixStats")
 library(matrixStats)
 
+#Calculating summary in standard deviation
+
+library(dplyr)
+dataset %>% summarise_if(is.numeric, sd)
+
+
 
 
 
