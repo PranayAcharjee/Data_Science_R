@@ -2,7 +2,7 @@
 ## Caesarian Delivery Prediction Dataset - Data Preprocessing
 This repository contains the code and dataset for the Caesarian Delivery Prediction project. The goal of this project was to predict whether a pregnant woman is likely to have a caesarian delivery based on various attributes.
 
-Dataset Description
+### Dataset Description
 The dataset used in this project consists of information on 80 pregnant women. It includes the following attributes:
 
 Id: A unique identifier for each woman.
@@ -13,12 +13,14 @@ Delivery Time: The time it took for delivery.
 Blood Pressure: The blood pressure levels of the woman.
 Heart Problem: Indicates whether or not the woman has a heart problem.
 Caesarian: The target variable indicating whether the woman had a caesarian delivery (1) or not (0).
-Project Overview
+
+#### Project Overview
+
 In this project, we focused on data preprocessing to ensure the dataset is clean and suitable for analysis. The following steps were performed:
 
-Importing the Dataset: The dataset was imported into the project environment for further analysis and preprocessing.
+* Importing the Dataset: The dataset was imported into the project environment for further analysis and preprocessing.
 
-Handling Missing Values: Missing values in the dataset were identified and appropriate techniques were used to handle them. This ensured that the dataset was complete and no valuable information was lost.
+* Handling Missing Values: Missing values in the dataset were identified and appropriate techniques were used to handle them. This ensured that the dataset was complete and no valuable information was lost.
 
 Dealing with Data Types and Conversion: The data types of the attributes were examined, and conversions were performed as necessary. This step included transforming categorical variables into numerical representations, ensuring consistency in data types, and facilitating subsequent analysis.
 
