@@ -69,6 +69,8 @@ library(matrixStats)
 
 library(dplyr)
 dataset %>% summarise_if(is.numeric, sd)
+dataset %>% summarise_if(is.numeric, sd)
+dataset %>% summarise_if(is.numeric, sd)
 
 
 
